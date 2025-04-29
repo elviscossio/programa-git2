@@ -1,0 +1,95 @@
+/* Importar fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa; /* Color de fondo */
+    color: #333; /* Color del texto */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #0056b3;
+    margin-top: 20px;
+}
+
+/* Lista de temas */
+.tutorial-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tutorial-list li {
+    background: #e3f2fd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tutorial-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.tutorial-list li a:hover {
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Sección de temas */
+.topic {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para imágenes */
+.topic img {
+    width: 100%; /* Se ajusta automáticamente */
+    max-width: 600px;
+    height: auto; /* Mantiene la proporción */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive: Ajuste en móviles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .topic img {
+        max-width: 100%;
+    }
+}
+
